@@ -1,0 +1,71 @@
+#sec-5 {
+    background: linear-gradient(RGB(93, 95, 91, .9), RGB(93, 95, 91, .9)), url("../images/bg2.jpg") center center/cover;
+}
+
+#sec-5 .AMI-container {
+    width: 100%;
+    margin: 20px auto !important;
+    padding: 50px 10px 0;
+}
+
+#sec-5 .AMI-container article {
+    text-align: center;
+    color: #fff;
+}
+
+#sec-5 .AMI-container article h1 {
+    font-size: 2rem;
+}
+
+#sec-5 .AMI-container article p {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#sec-5 .AMI-container ul {
+    display: flex;
+    justify-content: center;
+}
+
+#sec-5 .AMI-container ul a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+#sec-5 .AMI-container img {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#innermenu+ul {
+    display: none !important;
+}
+
+#sec-5 .AMI-container label {
+    display: inline-block;
+    color: gold;
+    font-size: 3rem;
+    text-align: center;
+    width: 30%;
+    margin: 10px 35%;
+}
+
+#innermenu {
+    display: none;
+}
+
+#innermenu:checked+ul li {
+    /* padding-left: 20px; */
+}
+
+#innermenu:checked+ul {
+    display: block !important;
+    list-style: none;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}

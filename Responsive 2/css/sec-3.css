@@ -1,0 +1,51 @@
+#sec-3 {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/bg4.jpg") center center /cover;
+}
+
+#sec-3 .AMI-container {
+    padding: 10px;
+    text-align: center !important;
+    color: #fff;
+}
+
+#sec-3 .AMI-container article h1 {
+    color: RGB(255, 203, 15);
+    font-size: 2rem;
+    margin: 30px auto 10px;
+}
+
+#sec-3 .AMI-container aside {
+    background-color: rgba(0, 0, 0, .5);
+    margin: 60px auto;
+    position: relative;
+    padding: 90px 20px 20px;
+    width: 220px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#sec-3 .AMI-container aside figure {
+    background-color: rgba(255, 203, 15);
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    bottom: 70%;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec-3 .AMI-container aside h4 {
+    color: RGB(255, 203, 15);
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#sec-3 .AMI-container p {
+    text-align: center !important;
+}

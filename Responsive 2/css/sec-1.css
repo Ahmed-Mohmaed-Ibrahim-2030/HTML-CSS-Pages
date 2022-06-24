@@ -1,0 +1,166 @@
+body>header {
+    display: none;
+}
+
+#main-nav {
+    background-color: RGB(34, 37, 51);
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+.AMI-container {
+    margin: 0 auto !important;
+}
+
+#main-nav .AMI-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+}
+
+#main-nav .AMI-container #menu {
+    display: none;
+}
+
+#main-nav .AMI-container #menu:checked+ul {
+    display: block;
+    margin: 0 auto;
+    top: 14vh;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 98%;
+    list-style: none;
+    background-color: RGBa(34, 37, 51);
+    text-align: center;
+}
+
+#main-nav .AMI-container label[for="menu"] {
+    color: RGB(255, 203, 15);
+    display: inline-block;
+    font-size: xx-large;
+    padding: 5px;
+    align-self: center;
+    border: thin solid RGB(255, 203, 15);
+    border-radius: 5px;
+}
+
+#main-nav .AMI-container ul li {
+    border: 2px dotted #ccc;
+}
+
+#main-nav .AMI-container ul li a {
+    text-decoration: none;
+    color: RGB(232, 233, 233);
+    display: inline-block;
+    padding: 10px 0;
+}
+
+#main-nav ul form label {
+    color: RGB(255, 203, 15);
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 5px;
+}
+
+#main-nav .AMI-container ul {
+    display: none;
+}
+
+#main-nav .AMI-container ul #search {
+    display: none;
+}
+
+#main-nav .AMI-container ul #search+input {
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#main-nav .AMI-container ul #search+input {
+    display: none;
+}
+
+#main-nav .AMI-container ul #search:checked+input {
+    display: inline-block;
+}
+
+#main-nav .AMI-container article {
+    align-self: center;
+    padding: 0;
+}
+
+#main-nav .AMI-container h1 {
+    color: RGB(255, 203, 15);
+    font-size: 2.3rem;
+    padding: 0;
+    margin: 0%;
+}
+
+#main-nav .AMI-container h1 span {
+    color: #FFF;
+}
+
+#main-nav .AMI-container p {
+    padding: 0;
+    margin: 0;
+    color: RGB(174, 174, 175);
+}
+
+#sec-1 {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/banner.jpg") center center/cover;
+    height: 100vh;
+}
+
+#sec-1 .AMI-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFF;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+#sec-1 .AMI-container h5 {
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#sec-1 .AMI-container h1 {
+    font-size: 2rem;
+    color: #FFF;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+#sec-1 .AMI-container h1 span {
+    color: RGB(250, 199, 15);
+}
+
+#sec-1 .AMI-container p {
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    text-align: center !important;
+}
+
+#sec-1 .AMI-container a {
+    text-decoration: none;
+    display: inline-block;
+    color: RGB(250, 199, 15);
+    margin-left: 5px;
+    background-color: #000;
+    padding: 10px;
+    border: thin solid RGB(250, 199, 15);
+}

@@ -1,0 +1,84 @@
+#sec-6 {
+    background: url("../images/bg3.jpg") center center /cover;
+}
+
+#sec-6 .AMI-container {
+    margin: 0 auto;
+    padding: 20px 10px 0px;
+}
+
+#sec-6 .AMI-container article {
+    text-align: center;
+}
+
+#sec-6 .AMI-container article h1 {
+    font-size: 2rem;
+    margin: 20px auto;
+}
+
+#sec-6 .AMI-container div {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+#sec-6 .AMI-container div::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#sec-6 .AMI-container aside {
+    display: flex;
+    margin-top: 20px;
+    background-color: #ccc;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+    border-top: 50px;
+}
+
+#sec-6 .AMI-container #yellow-aside {
+    background-color: RGB(255, 203, 15);
+}
+
+#sec-6 .AMI-container aside div {
+    align-self: stretch;
+}
+
+#sec-6 .AMI-container aside p {
+    padding: 10px;
+    text-align: justify;
+}
+
+#sec-6 .AMI-container aside::after {
+    border: 20px solid #FFF;
+    border-top-color: #ccc;
+    width: 1%;
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#sec-6 .AMI-container #yellow-aside::after {
+    border-top-color: rgba(255, 203, 15);
+}
+
+#sec-6 .AMI-container figure {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    margin-top: 10px;
+    left: 0;
+    right: 0;
+    margin-bottom: 50px;
+}
+
+#sec-6 .AMI-container figure img {
+    border-radius: 50%;
+    display: inline-block;
+}

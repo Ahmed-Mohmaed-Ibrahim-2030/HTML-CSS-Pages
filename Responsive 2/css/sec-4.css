@@ -1,0 +1,98 @@
+#sec-4 .AMI-container {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+#sec-4 .AMI-container article {
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: -1px 1px 15px#fff;
+}
+
+#sec-4 .AMI-container article figure {
+    width: 100%;
+}
+
+#sec-4 .AMI-container article img {
+    display: block;
+    width: 100%;
+}
+
+#sec-4 .AMI-container figcaption {
+    background-color: rgba(0, 0, 0, .7);
+    position: relative;
+    height: 40px;
+    bottom: 40px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-top: 5px;
+}
+
+#sec-4 .AMI-container p {
+    text-align: justify;
+    margin: 20px auto;
+}
+
+#sec-4 .AMI-container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#sec-4 .AMI-container article a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: RGB(255, 209, 15);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 0 auto;
+    line-height: 2.2rem;
+    font-weight: 500;
+}
+
+#sec-6 #form-div .AMI-container form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec-6 #form-div {
+    background-color: RGB(254, 219, 93);
+    color: RGB(115, 117, 126);
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+#sec-6 #form-div h1 {
+    font-size: 2rem;
+}
+
+#sec-6 #form-div h3 {
+    font-size: 2rem;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+}
+
+#sec-6 #form-div input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#sec-6 #form-div input[type="submit"] {
+    background-color: RGB(115, 117, 126);
+    color: #fff;
+    padding: 10px 20px;
+}
